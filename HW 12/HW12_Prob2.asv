@@ -1,0 +1,14 @@
+clear variables; close all;
+I = [0,1];
+ns = 2.^(1:9);
+fVals = zeros(3,8);
+fh = @(x)xlogx(x) ;
+for ii = 1:length(ns)
+    fVals(1,ii) = compositeIntegration(fh, ns(ii), I,'trapezoid');
+    fVals(2,ii) = compositeIntegration(fh, ns(ii), I,'simpson');
+    fVals(3,ii) = compositeIntegration(fh, ns(ii), I,'midpoint');
+end
+
+figure;
+loglog( ns, fVals+1/4 )
+legend( 'Trapezoid', 'Simpsons Rjule',  )

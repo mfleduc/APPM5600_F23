@@ -19,10 +19,12 @@
 
 \newcommand{\class}{APPM 5600}
 \newcommand{\term}{Fall 2023}
-\newcommand{\examnum}{HW 1}
+\newcommand{\examnum}{HW 3}
 \newcommand{\mbbE}{\mathbb{E}}
 \newcommand{\av}{\vec{a}}
 \newcommand{\diffd}{\textnormal{d}}
+\newcommand{\deriv}[2]{\frac{\diffd #1}{\diffd #2}}
+\newcommand{\pderiv}[2]{\frac{\partial #1}{\partial #2}}
 
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
@@ -45,55 +47,13 @@
 \end{tabular*}\\
 \noindent
 
-\section*{Question 1}
-\subsection*{Part i}
-
-\subsection*{Part ii}
-
-\subsection*{Part iii}
-
-\newpage
-
-\section*{Question 2}
-
-\subsection*{Part i}
-
-\subsection*{Part ii}
-
-\subsection*{Part iii}
+\section{Question 1}
+\begin{enumerate}
+    \item foo
+    
+    \item bar
+\end{enumerate}
 
 \newpage
-
-\section*{Question 3}
-
-\subsection*{Part i}
-
-\subsection*{Part ii}
-
-\subsection*{Part iii}
-
-\newpage
-
-\section*{Question 4}
-
-\newpage 
-
-\section*{Question 5}
-
-\newpage 
-
-\section*{Question 6}
-
-\subsection*{Part i}
-
-\subsection*{Part ii}
-
-\subsection*{Part iii}
-
-\newpage
-\section*{Appendix}
-
-
-
 
 \end{document}
